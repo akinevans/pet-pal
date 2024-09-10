@@ -1,18 +1,21 @@
 .hero-wrapper {
+  width: 100%;
+  height: fit-content;
   max-width: 1440px;
   position: relative;
+  /* border: 2px solid red; */
 }
 
 .hero-banner {
+  width: 100%;
   max-width: 1440px;
   z-index: -1;
 }
 
 .text-wrapper {
   position: absolute;
-  top: 160px;
-  left: 0;
-  margin-left: 130px;
+  top: 22%;
+  left: 9%;
   width: 465px;
   text-align: left;
 

@@ -2,6 +2,7 @@ import Button from "../Button/Button";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
+//TODO: media queries and show hide hamburger menu
 export default function Nav() {
   return (
     <nav>

@@ -1,11 +1,12 @@
 nav {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1440px;
+  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 28px 130px;
+  padding: 28px 9%;
   z-index: 100;
   position: fixed;
   box-sizing: border-box;
