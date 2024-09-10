@@ -1,0 +1,50 @@
+button {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  min-width: fit-content;
+  height: 44px;
+  padding: 8px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 57px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  /* Body/16px Medium */
+  font-size: 16px;
+  font-style: normal;
+  line-height: 24px; /* 150% */
+}
+
+/* //!placeholder hover and active */
+button:hover {
+  opacity: 90%;
+}
+button:active {
+  opacity: 80%;
+}
+
+/* utility classes */
+.dark-blue {
+  background: var(--color-primary-dark-blue);
+  color: var(--color-neutral-00);
+}
+
+.light-blue {
+  background: var(--color-state-blue-sea);
+  color: var(--color-neutral-00);
+}
+
+.white {
+  color: var(--color-primary-dark-blue);
+  background: var(--color-neutral-00);
+  border: 2px solid var(--color-primary-dark-blue, #003459);
+}
+
+.inactive {
+  color: var(--color-neutral-60);
+  background: var(--color-neutral-20);
+}

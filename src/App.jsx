@@ -1,10 +1,13 @@
 import "./App.css";
+import Nav from "./components/Nav/Nav";
+import Hero from "./components/Hero/Hero";
 
 function App() {
   return (
-    <>
-      <h1 className='poppins-light'>Pet Pal</h1>
-    </>
+    <div className='app'>
+      <Nav />
+      <Hero />
+    </div>
   );
 }
 

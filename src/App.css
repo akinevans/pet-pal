@@ -7,6 +7,11 @@
   font-family: Poppins, Arial, Helvetica, sans-serif;
   color: var(--color-primary-dark-blue);
 }
+.app {
+  width: 1440px;
+  max-width: 1440px;
+  box-sizing: border-box;
+}
 
 .poppins-light {
   font-family: "Poppins", sans-serif;
