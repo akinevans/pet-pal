@@ -1,10 +1,17 @@
 import puppy from "../../assets/puppy.png";
+import { Link } from "react-router-dom";
 import "./PetCard.css";
 
 //TODO: fetch data from database for each card component
 export default function PetCard(props) {
   return (
-    <div className='pet-card-wrapper'>
+    <Link
+      //
+      //
+      //
+      to=''
+      className='pet-card-wrapper'
+    >
       <img src={puppy} alt='pet image' className='pet-img' />
 
       <div className='pet-card-text-wrapper'>
@@ -18,6 +25,6 @@ export default function PetCard(props) {
           <p className='age poppins-light'>Age: {props.age}</p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

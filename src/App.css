@@ -40,12 +40,37 @@
 
 .pet-card-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 35px;
-  margin: 90px 0;
-  width: 100%;
-  max-width: 1440px;
+  margin: 70px 0;
+  padding: 0 9%;
+  width: fit-content;
+  max-width: 100%;
   height: fit-content;
+
+  .pet-card-header-container {
+    .pet-title {
+      margin: 0;
+      color: var(--color-primary-dark-blue);
+      font-size: 34px;
+      line-height: 36px; /* 150% */
+    }
+
+    .btn-wrapper {
+      display: flex;
+      gap: 15px;
+      float: right;
+      width: fit-content;
+    }
+  }
+
+  .pet-card-component-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+    margin-top: 30px;
+    width: 100%;
+  }
 }
