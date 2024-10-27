@@ -1,14 +1,6 @@
 // TO USE ^ import this file, then:  @include flexPosition(center, center);
 
-@mixin widthHeight($width, $height) {
-  width: $width;
-  height: $height;
-}
-
-@mixin maxWidthHeight($width, $height) {
-  max-width: $width;
-  max-height: $height;
-}
+// * POSITION
 
 @mixin flex($direction) {
   display: flex;
@@ -19,6 +11,84 @@
   justify-content: $justify;
   align-items: $align;
 }
+
+// * DIMENSIONS
+@mixin widthHeight($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin maxWidthHeight($width, $height) {
+  max-width: $width;
+  max-height: $height;
+}
+
+// * TYPOGRAPHY
+
+// weight
+@mixin weightNormal() {
+  font-weight: 400;
+}
+@mixin weightMedium() {
+  font-weight: 500;
+}
+@mixin weightSemibold() {
+  font-weight: 600;
+}
+@mixin weightBold() {
+  font-weight: 700;
+}
+
+// size, line-height, letter-spacing
+
+@mixin font4XL() {
+  font-size: 60px;
+  font-style: normal;
+  line-height: 72px; /* 120% */
+  letter-spacing: -1.2px;
+}
+
+@mixin font3XL() {
+  font-size: 48px;
+  font-style: normal;
+  line-height: 60px; /* 125% */
+  letter-spacing: -0.96px;
+}
+
+@mixin font2XL() {
+  font-size: 36px;
+  font-style: normal;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -0.72px;
+}
+
+@mixin fontXL() {
+  font-size: 30px;
+  font-style: normal;
+  line-height: 38px; /* 126.667% */
+}
+
+@mixin fontLG() {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 32px; /* 133.333% */
+}
+
+@mixin fontMD() {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 32px; /* 133.333% */
+}
+
+@mixin fontSM() {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+// OTHER
 
 @mixin tempOutline($color) {
   outline: 2px solid $color;

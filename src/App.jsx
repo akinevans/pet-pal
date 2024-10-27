@@ -8,7 +8,7 @@ import "normalize.css";
 function App() {
   return (
     <div className='app'>
-      <h1>Pet Pal</h1>
+      <h1 className='font-2xl-regular'>Pet Pal</h1>
       <h2>Pet Pal</h2>
       <h3>Pet Pal</h3>
       <p>
