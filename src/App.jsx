@@ -1,4 +1,5 @@
 import "./App.css";
+import "normalize.css";
 
 // TODO: Install normalize
 // TODO Setup Router
