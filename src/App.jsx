@@ -1,92 +1,38 @@
 import "./App.css";
-import Nav from "./components/Nav/Nav";
-import Hero from "./components/Hero/Hero";
-import PetCard from "./components/PetCard/PetCard";
-import Button from "./components/Button/Button";
+
+// TODO: Install normalize
+// TODO Setup Router
+// TODO Install SCSS
+// TODO SCSS Variables
+// TODO SCSS Mixins
 
 function App() {
   return (
     <div className='app'>
-      <Nav />
-      <Hero />
-
-      <div className='pet-card-container'>
-        <div className='pet-card-header-container'>
-          <h1 className='pet-title poppins-medium'>Your Pets</h1>
-          <div className='btn-wrapper'>
-            <Button
-              //
-              styling='dark-blue'
-              title='Add'
-              onClick=''
-            />
-            <Button
-              //
-              styling='white'
-              title='Edit'
-              onClick=''
-            />
-          </div>
-        </div>
-        <div className='pet-card-component-container'>
-          <PetCard
-            //
-            name='Alphonse'
-            breed='Husky'
-            gender='male'
-            age='6 months'
-          />
-          <PetCard
-            //
-            name='Alphonse'
-            breed='Husky'
-            gender='male'
-            age='6 months'
-          />
-          <PetCard
-            //
-            name='Alphonse'
-            breed='Husky'
-            gender='male'
-            age='6 months'
-          />
-          <PetCard
-            //
-            name='Alphonse'
-            breed='Husky'
-            gender='male'
-            age='6 months'
-          />
-          <PetCard
-            //
-            name='Alphonse'
-            breed='Husky'
-            gender='male'
-            age='6 months'
-          />
-          <PetCard
-            //
-            name='Alphonse'
-            breed='Husky'
-            gender='male'
-            age='6 months'
-          />
-          <PetCard
-            //
-            name='Alphonse'
-            breed='Husky'
-            gender='male'
-            age='6 months'
-          />
-          <PetCard
-            //
-            name='Alphonse'
-            breed='Husky'
-            gender='male'
-            age='6 months'
-          />
-        </div>
-      </div>
+      <h1>Pet Pal</h1>
+      <h2>Pet Pal</h2>
+      <h3>Pet Pal</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+        inventore nam iste reiciendis. Sapiente quo architecto vitae. Maxime,
+        repudiandae quo!
+      </p>
+      <ul>
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc</li>
+      </ul>
+      <ol>
+        <li>
+          <a href=''>link</a>
+        </li>
+        <li>
+          <a href=''>link</a>
+        </li>
+        <li>
+          <a href=''>link</a>
+        </li>
+      </ol>
     </div>
   );
 }

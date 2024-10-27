@@ -50,6 +50,7 @@
 
   .pet-card-header-container {
     .pet-title {
+      display: inline;
       margin: 0;
       color: var(--color-primary-dark-blue);
       font-size: 34px;
