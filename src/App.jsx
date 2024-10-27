@@ -1,9 +1,7 @@
-import "./App.css";
+import "./App.scss";
 import "normalize.css";
 
-// TODO: Install normalize
 // TODO Setup Router
-// TODO Install SCSS
 // TODO SCSS Variables
 // TODO SCSS Mixins
 

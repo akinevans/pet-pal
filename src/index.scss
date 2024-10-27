@@ -2,9 +2,11 @@
   /**  Color System */
   --color-primary-dark-blue: #003459;
   --color-secondary-mon-yellow: #f7dba7;
+
   --color-state-pink-red: #ff564f;
   --color-state-green-light: #34c759;
   --color-state-orange-shine: #ff912c;
+
   --color-neutral-100: #00171f;
   --color-neutral-80: #242b33;
   --color-neutral-60: #667479;
@@ -12,7 +14,9 @@
   --color-neutral-20: #ccd1d2;
   --color-neutral-10: #ebeeef;
   --color-neutral-00: #fdfdfd;
+
   /**  Typography located in App.css */
+
   box-sizing: border-box;
 }
 
@@ -21,4 +25,4 @@ body {
   margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
-}/*# sourceMappingURL=index.css.map */
+}

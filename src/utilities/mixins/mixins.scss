@@ -1,0 +1,25 @@
+// TO USE ^ import this file, then:  @include flexPosition(center, center);
+
+@mixin widthHeight($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin maxWidthHeight($width, $height) {
+  max-width: $width;
+  max-height: $height;
+}
+
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+@mixin flexPosition($justify, $align) {
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin tempOutline($color) {
+  outline: 2px solid $color;
+}
