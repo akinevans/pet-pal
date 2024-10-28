@@ -1,37 +1,97 @@
+// component imports
+import Button from "./components/Button/Button";
+
+// scss imports
 import "./App.scss";
 import "normalize.css";
 
 // TODO Setup Router
-// TODO SCSS Variables
-// TODO SCSS Mixins
 
 function App() {
   return (
     <div className='app'>
-      <h1 className='font-2xl-regular'>Pet Pal</h1>
-      <h2>Pet Pal</h2>
-      <h3>Pet Pal</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-        inventore nam iste reiciendis. Sapiente quo architecto vitae. Maxime,
-        repudiandae quo!
-      </p>
-      <ul>
-        <li>aaa</li>
-        <li>bbb</li>
-        <li>ccc</li>
-      </ul>
-      <ol>
-        <li>
-          <a href=''>link</a>
-        </li>
-        <li>
-          <a href=''>link</a>
-        </li>
-        <li>
-          <a href=''>link</a>
-        </li>
-      </ol>
+      Primary
+      <Button
+        variant='btn-primary'
+        size='btn-small'
+        type='button'
+        text='Button CTA'
+        onClick={() => {
+          console.log("btn clicked");
+        }}
+      />
+      <Button
+        variant='btn-primary-disabled'
+        size='btn-small'
+        type='button'
+        text='Button CTA'
+        onClick={() => {
+          console.log("btn clicked");
+        }}
+      />
+      Secondary
+      <Button
+        // disabled='true'
+        variant='btn-secondary'
+        size='btn-small'
+        type='button'
+        text='Button CTA'
+        onClick={() => {
+          console.log("btn clicked");
+        }}
+      />
+      <Button
+        // disabled='true'
+        variant='btn-secondary-disabled'
+        size='btn-small'
+        type='button'
+        text='Button CTA'
+        onClick={() => {
+          console.log("btn clicked");
+        }}
+      />
+      Tertiary
+      <Button
+        // disabled='true'
+        variant='btn-tertiary'
+        size='btn-small'
+        type='button'
+        text='Button CTA'
+        onClick={() => {
+          console.log("btn clicked");
+        }}
+      />
+      <Button
+        // disabled='true'
+        variant='btn-tertiary-disabled'
+        size='btn-small'
+        type='button'
+        text='Button CTA'
+        onClick={() => {
+          console.log("btn clicked");
+        }}
+      />
+      Destructive
+      <Button
+        // disabled='true'
+        variant='btn-destructive'
+        size='btn-small'
+        type='button'
+        text='Button CTA'
+        onClick={() => {
+          console.log("btn clicked");
+        }}
+      />
+      <Button
+        // disabled='true'
+        variant='btn-destructive-disabled'
+        size='btn-small'
+        type='button'
+        text='Button CTA'
+        onClick={() => {
+          console.log("btn clicked");
+        }}
+      />
     </div>
   );
 }
