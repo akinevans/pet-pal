@@ -1,5 +1,6 @@
 // component imports
 import Button from "./components/Button/Button";
+import Button_Social from "./components/Button_Social/Button_Social";
 
 // scss imports
 import "./App.scss";
@@ -10,7 +11,7 @@ import "normalize.css";
 function App() {
   return (
     <div className='app'>
-      Primary
+      <p>Primary</p>
       <Button
         variant='btn-primary'
         size='btn-small'
@@ -20,6 +21,7 @@ function App() {
           console.log("btn clicked");
         }}
       />
+      <p>Primary disabled</p>
       <Button
         variant='btn-primary-disabled'
         size='btn-small'
@@ -29,7 +31,7 @@ function App() {
           console.log("btn clicked");
         }}
       />
-      Secondary
+      <p>Secondary</p>
       <Button
         // disabled='true'
         variant='btn-secondary'
@@ -40,6 +42,7 @@ function App() {
           console.log("btn clicked");
         }}
       />
+      <p>Secondary disabled</p>
       <Button
         // disabled='true'
         variant='btn-secondary-disabled'
@@ -50,7 +53,7 @@ function App() {
           console.log("btn clicked");
         }}
       />
-      Tertiary
+      <p>Tertiary </p>
       <Button
         // disabled='true'
         variant='btn-tertiary'
@@ -61,6 +64,7 @@ function App() {
           console.log("btn clicked");
         }}
       />
+      <p>Tertiary disabled</p>
       <Button
         // disabled='true'
         variant='btn-tertiary-disabled'
@@ -71,7 +75,8 @@ function App() {
           console.log("btn clicked");
         }}
       />
-      Destructive
+      <p>Destructive </p>
+
       <Button
         // disabled='true'
         variant='btn-destructive'
@@ -82,6 +87,8 @@ function App() {
           console.log("btn clicked");
         }}
       />
+      <p>Destructive disabled</p>
+
       <Button
         // disabled='true'
         variant='btn-destructive-disabled'
@@ -90,6 +97,24 @@ function App() {
         text='Button CTA'
         onClick={() => {
           console.log("btn clicked");
+        }}
+      />
+
+      <p>Button Social</p>
+      <Button_Social
+        text='Sign in with Email'
+        icon=''
+        alt=''
+        onClick={() => {
+          console.log("sign in with email pressed");
+        }}
+      />
+      <Button_Social
+        text='Sign in with Google'
+        icon='google'
+        alt='google logo'
+        onClick={() => {
+          console.log("sign in with google pressed");
         }}
       />
     </div>

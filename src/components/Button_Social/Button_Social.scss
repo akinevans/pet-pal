@@ -1,0 +1,49 @@
+@import "../../utilities/mixins/mixins.scss";
+
+.social-btn {
+  display: inline-flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d5d7da);
+  background: var(--White, #fff);
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+
+  // TEXT
+  color: var(--Gray-700, #414651);
+  font-size: 16px;
+  font-style: normal;
+  @include weightSemibold;
+  line-height: 24px; /* 150% */
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.social-btn:hover {
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d5d7da);
+  background: var(--Gray-50, #fafafa);
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+  transition: all 0.2s ease;
+}
+
+.social-btn:focus {
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d5d7da);
+  background: var(--White, #fff);
+
+  /* Shadow/xs focused 4px gray-100 */
+  box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05), 0px 0px 0px 4px #f5f5f5;
+  transition: all 0.2s ease;
+}
+
+.hidden {
+  display: none;
+}
