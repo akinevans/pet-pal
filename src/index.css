@@ -1,69 +1,67 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #535bf2;
+  --White: #fff;
+  --Black: #000;
+  --Brand-25: #f5faff;
+  --Brand-50: #eff8ff;
+  --Brand-100: #d1e9ff;
+  --Brand-200: #b2ddff;
+  --Brand-300: #84caff;
+  --Brand-400: #53b1fd;
+  --Brand-500: #2e90fa;
+  --Brand-600: #1570ef;
+  --Brand-700: #175cd3;
+  --Brand-800: #1849a9;
+  --Brand-900: #194185;
+  --Gray-25: #fdfdfd;
+  --Gray-50: #fafafa;
+  --Gray-100: #f5f5f5;
+  --Gray-200: #e9eaeb;
+  --Gray-300: #d5d7da;
+  --Gray-400: #a4a7ae;
+  --Gray-500: #717680;
+  --Gray-600: #535862;
+  --Gray-700: #414651;
+  --Gray-800: #252b37;
+  --Gray-900: #101828;
+  --Error-25: #fffbfa;
+  --Error-50: #fef3f2;
+  --Error-100: #fee4e2;
+  --Error-200: #fecdca;
+  --Error-300: #fda29b;
+  --Error-400: #f97066;
+  --Error-500: #f04438;
+  --Error-600: #d92d20;
+  --Error-700: #b42318;
+  --Error-800: #912018;
+  --Error-900: #7a271a;
+  --Warning-25: #fffcf5;
+  --Warning-50: #fffaeb;
+  --Warning-100: #fef0c7;
+  --Warning-200: #fedf89;
+  --Warning-300: #fec84b;
+  --Warning-400: #fdb022;
+  --Warning-500: #f79009;
+  --Warning-600: #dc6803;
+  --Warning-700: #b54708;
+  --Warning-800: #93370d;
+  --Warning-900: #7a2e0e;
+  --Success-25: #f6fef9;
+  --Success-50: #ecfdf3;
+  --Success-100: #d1fadf;
+  --Success-200: #a6f4c5;
+  --Success-300: #6ce9a6;
+  --Success-400: #32d583;
+  --Success-500: #12b76a;
+  --Success-600: #039855;
+  --Success-700: #027a48;
+  --Success-800: #05603a;
+  --Success-900: #054f31;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   display: flex;
-  place-items: center;
+  margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-
-button:hover {
-  border-color: #646cff;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }/*# sourceMappingURL=index.css.map */

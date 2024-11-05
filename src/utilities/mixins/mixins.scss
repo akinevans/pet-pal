@@ -1,0 +1,112 @@
+// TO USE ^ import this file, then:  @include flexPosition(center, center);
+
+// * POSITION
+
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+
+@mixin flexPosition($justify, $align) {
+  justify-content: $justify;
+  align-items: $align;
+}
+
+// * DIMENSIONS
+@mixin widthHeight($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin maxWidthHeight($width, $height) {
+  max-width: $width;
+  max-height: $height;
+}
+
+// * TYPOGRAPHY
+
+// weight
+@mixin weightNormal() {
+  font-weight: 400;
+}
+@mixin weightMedium() {
+  font-weight: 500;
+}
+@mixin weightSemibold() {
+  font-weight: 600;
+}
+@mixin weightBold() {
+  font-weight: 700;
+}
+
+// size, line-height, letter-spacing
+
+@mixin font4XL() {
+  font-size: 60px;
+  font-style: normal;
+  line-height: 72px; /* 120% */
+  letter-spacing: -1.2px;
+}
+
+@mixin font3XL() {
+  font-size: 48px;
+  font-style: normal;
+  line-height: 60px; /* 125% */
+  letter-spacing: -0.96px;
+}
+
+@mixin font2XL() {
+  font-size: 36px;
+  font-style: normal;
+  line-height: 44px; /* 122.222% */
+  letter-spacing: -0.72px;
+}
+
+@mixin fontXL() {
+  font-size: 30px;
+  font-style: normal;
+  line-height: 38px; /* 126.667% */
+}
+
+@mixin fontLG() {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 32px; /* 133.333% */
+}
+
+@mixin fontMD() {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 32px; /* 133.333% */
+}
+
+@mixin fontSM() {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 28px; /* 155.556% */
+}
+
+// * BOX SHADOW
+
+@mixin shadowXS() {
+  box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+}
+@mixin shadowSM() {
+  box-shadow: 0px 1px 3px 0px rgba(10, 13, 18, 0.1),
+    0px 1px 2px 0px rgba(10, 13, 18, 0.06);
+}
+@mixin shadowMD() {
+  box-shadow: 0px 4px 8px -2px rgba(10, 13, 18, 0.1),
+    0px 2px 4px -2px rgba(10, 13, 18, 0.06);
+}
+@mixin shadowLG() {
+  box-shadow: 0px 12px 16px -4px rgba(10, 13, 18, 0.08),
+    0px 4px 6px -2px rgba(10, 13, 18, 0.03);
+}
+
+// OTHER
+
+@mixin tempOutline($color) {
+  outline: 2px solid $color;
+}
