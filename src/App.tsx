@@ -1,10 +1,11 @@
+import "normalize.css";
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1>Pet Pal</h1>
-    </>
+    <div className='app'>
+      <h1>Pet Pal TS</h1>
+    </div>
   );
 }
 
